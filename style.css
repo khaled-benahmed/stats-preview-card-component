@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: hsl(0, 0%, 100%);
+    height: 100%;
+    background-color: hsl(233, 47%, 7%);
+}
+
+
+.card{
+    width: 69.375rem;
+    height: 27.875rem;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color:  hsl(244, 38%, 16%);
+    margin: 20% 10%;
+}
+.image{
+    width: 100%;
+    min-height: 30vh;
+    background-color: var(--color-accent);
+    background-image: url('images/image-header-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0 10px 10px 0;
+    
+}
+.image::after{
+    background-color: #550081;
+    border-radius: 0 10px 10px 0;
+    content: '';
+    height: 27.875rem;
+    opacity: .5;
+    position: absolute;
+    width: 33.45rem;
+}
+  
+.text{
+
+    padding: 4.43rem 3.9rem 4rem 4.5rem;
+
+}
+.text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: .07rem;
+    line-height: 2.74rem;
+    margin-bottom: 1.65rem;
+}
+.text h1 span{
+    color:hsl(277, 64%, 61%); 
+}
+p{
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+div p {
+    margin: 0;
+   color:  hsla(0, 0%, 100%, 0.6);
+}
+.info {
+    margin: 4.7rem  2.7rem auto 0.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width:400px) {
+    .card{
+      
+        display: flex;
+        flex-direction: column-reverse;
+        height: 60.75rem;
+        width: 23.8rem;
+        position: relative;
+    }
+    .image{
+        width: 100%;
+        min-height: 50vh;
+        background-image: url('images/image-header-mobile.jpg');
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10px 10px 0 0;
+
+    }
+    .image::after{
+        background-color: #550081;
+        border-radius:  10px 10px 0 0;
+        content: '';
+        height: 20.875rem;
+        opacity: .5;
+        position: absolute;
+        width: 100%;
+    }
+    .text{
+        text-align: center;
+        padding: 4.43rem 1.9rem 1rem 3.5rem;
+    }
+    .info {
+        display:flex;
+        flex-direction: column;
+        margin: 2.7rem  2.7rem auto 0.5rem;
+    }
+    .info div {
+        margin-bottom: 40px;}
+
+}
