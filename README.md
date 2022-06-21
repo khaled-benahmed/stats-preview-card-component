@@ -44,6 +44,5 @@ Mobile version
 Will do more of these challenges to improve my skills.
 
 ## Author
-
-- Frontend Mentor - [@santu369](https://www.frontendmentor.io/profile/santu369)
-- Twitter - [@santu69](https://www.twitter.com/santu69)
+- Twitter - [@bnahmed_khaled]((https://twitter.com/bnahmed_khaled)
+)
