@@ -9,7 +9,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Screenshots](#screenshots)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -39,9 +38,6 @@ Mobile version
 - Flexbox
 - Desktop-first workflow
 
-### Continued development
-
-Will do more of these challenges to improve my skills.
 
 ## Author
 - Twitter - [@bnahmed_khaled](https://twitter.com/bnahmed_khaled)
